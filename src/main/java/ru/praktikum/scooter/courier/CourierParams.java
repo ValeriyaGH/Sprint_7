@@ -1,5 +1,4 @@
 package ru.praktikum.scooter.courier;
-
 import org.apache.commons.lang3.RandomStringUtils;
 
 public class CourierParams {
@@ -29,7 +28,5 @@ public class CourierParams {
         String password = "Qwerty";
         String firstName = "Тестировочный";
         return new Courier(login, password, firstName);
-
     }
-
 }

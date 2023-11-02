@@ -82,10 +82,7 @@ public class Order {
     public void setColor(List<String> color) {
         this.color = color;
     }
-
     private List<String> color;
-
-
     public Order(String firstName, String lastName, String address, String metroStation, String phone, String rentTime, String deliveryDate, String comment, List<String> color) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -97,5 +94,4 @@ public class Order {
         this.comment = comment;
         this.color = color;
     }
-
 }
